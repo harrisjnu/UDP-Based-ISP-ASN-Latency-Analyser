@@ -1,5 +1,6 @@
 Project Europa
-Python based UDP Traceroute application.
+Python based UDP Traceroute and ASN Specific in-path delay calculation to detect which ISP in path is causing delays.
+Tested to detect and insert lower latency alternate route into firewall through REST-API to improve latency of site-to-site VPN tunnels. 
 API based IP-AS reverse lookup.
 Capable of calculating inter AS latency delays.
 
